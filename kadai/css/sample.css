@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:center;
+    font-size: 45px;
+    
+}
+.jyan{
+    position: absolute;
+    font-size: 100px;
+    font-weight: bold;
+    top: 95px; 
+    left:219px;
+    
+}
+header{
+
+    text-align: center;
+}
+
+.bg_test{
+    display:inline-block;
+    position: relative;
+    text-shadow:5px 2px 1px #fff;
+    
+}
+
+
+.main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: #fff;
+    border-bottom:10px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:200%;
+    text-align: center;
+    height:200px;
+    text-shadow: #fff;
+    }
+ul{
+    padding: 0;
+    border-top: 1px solid #da1b7a;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    text-align: center;
+    list-style-type:none;
+    border: 10px solid #666;
+    background-color: rgb(201, 78, 129);
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+}
+li:hover{
+    background: #6900cc;
+    color:#fff;
+}
